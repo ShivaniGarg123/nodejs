@@ -1,0 +1,18 @@
+<html>
+<body>
+<div class="container">
+    <h1>WEATHER APP </h1>
+<form action="/app" method="post">
+    <button>GET WEATHER INFO (press twice)</button>
+    <% for(var i=0;i<1;i++){ %>
+    <%= wtoday[i] %>
+    <% } %>
+    <h3>Have A Nice Day !!!</h3>
+    <button formaction="/prevsearch">OK,Thanks for providing weather info (press twice)</button>
+    <% for(var i=0;i<1;i++){ %>
+        <% prev[i] %>
+    <% } %>
+</form>
+</div>
+</body>
+</html>
